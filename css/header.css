@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-inline-size: 100vw;
+  height: 60px;
+  /*background-color: red;*/
+}
+.logo {
+  margin-inline-start: 24px;
+}
+.menu-toggle {
+  background: none;
+  border: none;
+  margin-inline-end: 24px;
+  font-size: 24px;
+  color: var(--btn_color);
+}
+.header nav {
+  position: absolute;
+  top: 60px;
+  background-color: red;
+  width: 0;
+  height: 100vh;
+}
+
+.mostrar {
+  width: 80%;
+}

@@ -8,22 +8,18 @@
   </head>
   <body>
     <header class="header">
-      <a href="index.html">
+      <a href="index.html" class="logo">
         <img
           src="./assets/logo/logo.png"
-          class="header_logo"
+          class="logo_img"
           alt="Logo de Coronapp"
           title="Logo de Coronapp"
         />
       </a>
-      <nav>
-        <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Características</a></li>
-          <li><a href="#">Apoyo</a></li>
-          <li><a href="#">Contáctenos</a></li>
-        </ul>
-      </nav>
+      <nav id="menu"></nav>
+      <button class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </button>
     </header>
     <section class="hero"></section>
     <section class="support"></section>
@@ -32,5 +28,10 @@
     <section class="premium"></section>
     <section class="services"></section>
     <section class="download_app"></section>
+    <script
+      src="https://kit.fontawesome.com/0b3eb0d831.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/header.js"></script>
   </body>
 </html>

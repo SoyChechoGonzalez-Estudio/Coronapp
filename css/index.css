@@ -1,0 +1,8 @@
+@import "./header.css";
+@import "./reset.css";
+
+:root {
+  --btn_color: #000000;
+  --primary_color: #1d957f;
+  --secondary_color: #;
+}
