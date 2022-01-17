@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coronapp</title>
+    <script src="./js/index.js" defer></script>
     <link rel="stylesheet" href="./css/index.css" />
+    <title>Coronapp</title>
   </head>
   <body>
-    <header class="header">
-      <a href="index.html" class="logo">
+    <header class="header wrapper">
+      <a href="/" class="logo">
         <img
           src="./assets/logo/logo.png"
           class="logo_img"
@@ -16,12 +17,22 @@
           title="Logo de Coronapp"
         />
       </a>
-      <nav id="menu"></nav>
+      <nav id="menu">
+        <ul>
+          <li><a href="/">inicio</a></li>
+          <li><a href="#caracteristics">características</a></li>
+          <li><a href="#help">apoyo</a></li>
+          <li><a href="#contact">contáctenos</a></li>
+        </ul>
+      </nav>
       <button class="menu-toggle">
         <i class="fas fa-bars"></i>
       </button>
     </header>
-    <section class="hero"></section>
+    <section class="hero sections">
+      <article class="hero__text"></article>
+      <article class="hero__img"></article>
+    </section>
     <section class="support"></section>
     <section class="statistics"></section>
     <section class="experts"></section>
@@ -32,6 +43,5 @@
       src="https://kit.fontawesome.com/0b3eb0d831.js"
       crossorigin="anonymous"
     ></script>
-    <script src="./js/header.js"></script>
   </body>
 </html>
