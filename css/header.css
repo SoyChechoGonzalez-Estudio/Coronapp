@@ -5,6 +5,7 @@ header {
   justify-content: space-between;
   align-items: center;
   block-size: 60px;
+  z-index: 1;
 }
 .menu-toggle {
   background: none;
@@ -39,10 +40,11 @@ header nav ul {
 }
 header nav ul li a {
   text-transform: uppercase;
-  color: var(--secondary-color);
+  color: var(--second-color);
   font-weight: 700;
+  font-family: var(--second-font);
 }
-@media screen and (min-width: 668px) {
+@media screen and (min-width: 768px) {
   .menu-toggle {
     display: none;
   }

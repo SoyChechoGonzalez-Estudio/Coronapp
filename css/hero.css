@@ -1,0 +1,41 @@
+.hero {
+  margin-block-start: 56px;
+}
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+}
+.text-main {
+  font-size: 48px;
+  /* border: 1px solid red; */
+  /* text-align: center; */
+  inline-size: 350px;
+}
+.text-main span {
+  color: var(--main-color);
+}
+.text-description {
+  color: var(--text-color);
+  /* text-align: center; */
+  font-size: 12px;
+  inline-size: 330px;
+}
+.ver-video {
+  display: none;
+}
+.ver-video .video_text {
+  text-transform: uppercase;
+  font-size: 9px;
+}
+.hero__img img {
+  max-inline-size: 100%;
+}
+@media screen and (min-width: 968px) {
+  .hero__text {
+    align-items: flex-start;
+    text-align: left;
+  }
+}

@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="./js/index.js" defer></script>
     <link rel="stylesheet" href="./css/index.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/icon.png" />
     <title>Coronapp</title>
   </head>
   <body>
     <header class="header wrapper">
-      <a href="/" class="logo">
+      <a href="index.html" class="logo">
         <img
           src="./assets/logo/logo.png"
           class="logo_img"
@@ -19,7 +20,7 @@
       </a>
       <nav id="menu">
         <ul>
-          <li><a href="/">inicio</a></li>
+          <li><a href="index.html">inicio</a></li>
           <li><a href="#caracteristics">características</a></li>
           <li><a href="#help">apoyo</a></li>
           <li><a href="#contact">contáctenos</a></li>
@@ -29,16 +30,39 @@
         <i class="fas fa-bars"></i>
       </button>
     </header>
-    <section class="hero sections">
-      <article class="hero__text"></article>
-      <article class="hero__img"></article>
-    </section>
-    <section class="support"></section>
-    <section class="statistics"></section>
-    <section class="experts"></section>
-    <section class="premium"></section>
-    <section class="services"></section>
-    <section class="download_app"></section>
+    <main class="wrapper">
+      <section class="hero sections">
+        <article class="hero__text">
+          <h1 class="text-main">Cuida la salud de tu <span>familia.</span></h1>
+          <p class="text-description">
+            Todo en un destino para consultas de salud de COVID-19. Consulte a
+            más de 10,000 trabajadores de la salud sobre sus inquietudes.
+          </p>
+          <button class="btn btn-primary">empezar</button>
+        </article>
+        <div class="ver-video">
+          <button class="video_btn">
+            <i class="fas fa-play"></i>
+          </button>
+          <span class="video_text">Ver Video</span>
+        </div>
+        <article class="hero__img">
+          <picture>
+            <img
+              src="./assets/img/doctor-image2.png"
+              alt="Imagen de doctor con una niña"
+              title="Imagen de doctor con una niña"
+            />
+          </picture>
+        </article>
+      </section>
+      <section class="support"></section>
+      <section class="statistics"></section>
+      <section class="experts"></section>
+      <section class="premium"></section>
+      <section class="services"></section>
+      <section class="download_app"></section>
+    </main>
     <script
       src="https://kit.fontawesome.com/0b3eb0d831.js"
       crossorigin="anonymous"
