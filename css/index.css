@@ -4,9 +4,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
 
 /* Sections */
+@import "./main.css";
 @import "./header.css";
 @import "./reset.css";
 @import "./hero.css";
+@import "./features.css";
 
 /* Components */
 @import "./Components/wrapper.css";
@@ -24,4 +26,10 @@
   --first-font: "Rubik", sans-serif;
   --second-font: "Raleway", sans-serif;
   font-family: var(--first-font);
+}
+html {
+  scroll-behavior: smooth;
+}
+.highlight-main {
+  color: var(--main-color);
 }

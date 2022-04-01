@@ -8,15 +8,11 @@
   text-align: center;
   gap: 8px;
 }
-.text-main {
+h1[class="text-main"] {
   font-size: 48px;
-  /* border: 1px solid red; */
-  /* text-align: center; */
   inline-size: 350px;
 }
-.text-main span {
-  color: var(--main-color);
-}
+
 .text-description {
   color: var(--text-color);
   /* text-align: center; */
