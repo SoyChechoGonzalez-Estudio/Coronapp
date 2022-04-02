@@ -8,6 +8,7 @@
 @import "./header.css";
 @import "./reset.css";
 @import "./hero.css";
+@import "./features1.css";
 @import "./features.css";
 
 /* Components */
@@ -17,15 +18,20 @@
 
 :root {
   /* --btn_color: #000000; */
+  /* Fonts */
+  --first-font: "Rubik", sans-serif;
+  font-family: var(--first-font);
+  --second-font: "Raleway", sans-serif;
+  --font-small: bold 12px/16px var(--first-font);
+  --font-big: bold 40px/48px var(--first-font);
+
+  /* Color Fonts */
   --primary-color: #1d957f;
   --main-color: var(--primary-color);
   --second-color: #fff;
   --text-btn: var(--second-color);
   --btn-video: #4285f4;
   --text-color: #616161;
-  --first-font: "Rubik", sans-serif;
-  --second-font: "Raleway", sans-serif;
-  font-family: var(--first-font);
 }
 html {
   scroll-behavior: smooth;

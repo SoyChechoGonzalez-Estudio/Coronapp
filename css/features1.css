@@ -1,0 +1,38 @@
+@import "./Components/ft_card.css";
+
+.features1 {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: center;
+}
+h2[class="text-main"] {
+  font-size: 40px;
+  inline-size: 350px;
+  /* border: 1px solid red; */
+  width: 100%;
+  text-align: center;
+}
+.features_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  /* border: 2px solid rebeccapurple; */
+  max-width: 380px;
+}
+.features_text p {
+  text-align: center;
+  color: #616161;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  h2[class="text-main"] {
+    text-align: left;
+  }
+  .features_text {
+    align-items: flex-start;
+  }
+  .features_text p {
+    text-align: left;
+  }
+}
