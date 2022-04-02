@@ -4,7 +4,7 @@
   align-items: center;
   background: #fafbfd;
   gap: 40px;
-  padding: 40px 72px 116px 72px;
+  padding: 40px 40px 116px 40px;
 }
 .feature .feature-head {
   background: var(--second-color);
@@ -31,6 +31,7 @@
   flex-direction: column;
   align-items: center;
   gap: 16px;
+  padding-inline: 24px;
 }
 .feature .feature-foot article p {
   text-align: center;
@@ -47,7 +48,9 @@
 }
 .feature .feature-img picture {
   background: #fff;
-  padding: 24px 88px;
+}
+.feature-img picture img {
+  width: 100%;
 }
 @media screen and (min-width: 768px) {
   .feature .feature-head {
@@ -62,5 +65,9 @@
   }
   .feature .feature-foot article p {
     text-align: left;
+  }
+  .feature .feature-img picture {
+    background: #fff;
+    padding: 24px 88px;
   }
 }

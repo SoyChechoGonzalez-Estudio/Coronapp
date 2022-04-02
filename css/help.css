@@ -1,0 +1,22 @@
+.help {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  max-inline-size: 450px;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+.help h2 {
+  text-align: center;
+}
+.help p {
+  color: #616161;
+  text-align: center;
+  font: var(--normal-font-small);
+}
+@media screen and (min-width: 768px) {
+  .help {
+    padding: 0;
+  }
+}

@@ -10,6 +10,7 @@
 @import "./hero.css";
 @import "./features1.css";
 @import "./features.css";
+@import "./help.css";
 
 /* Components */
 @import "./Components/wrapper.css";
@@ -23,6 +24,7 @@
   font-family: var(--first-font);
   --second-font: "Raleway", sans-serif;
   --font-small: bold 12px/16px var(--first-font);
+  --normal-font-small: 12px/16px var(--first-font);
   --font-big: bold 40px/48px var(--first-font);
 
   /* Color Fonts */

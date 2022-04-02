@@ -10,14 +10,14 @@
 }
 h1[class="text-main"] {
   font-size: 48px;
-  inline-size: 350px;
+  max-inline-size: 350px;
 }
 
 .text-description {
   color: var(--text-color);
   /* text-align: center; */
   font-size: 12px;
-  inline-size: 330px;
+  max-inline-size: 330px;
 }
 .ver-video {
   display: none;
