@@ -1,4 +1,4 @@
-.features_card {
+.secure_card {
   font-size: 1.5rem;
   border: 2px solid var(--main-color);
   display: flex;
@@ -12,7 +12,7 @@
   border-radius: 12px;
   position: relative;
 }
-.ft_card-img {
+.sec_card-img {
   width: 11.18em;
   height: 11.18em;
   display: block;
@@ -22,21 +22,21 @@
   filter: drop-shadow(0px 0.34em 0.34em rgba(50, 50, 71, 0.08))
     drop-shadow(0px 11px 0.6em rgba(50, 50, 71, 0.08));
 }
-.ft_card-img img {
+.sec_card-img img {
   width: 100%;
 }
-.features_card h4 {
+.secure_card h4 {
   font-size: 1.5em;
   text-align: center;
   color: #262626;
 }
-.features_card p {
+.secure_card p {
   font-size: 0.65em;
   color: #262626;
   opacity: 0.5;
   text-align: center;
 }
-.features_card .small-square {
+.secure_card .small-square {
   background: var(--main-color);
   width: 1em;
   height: 4.1em;
@@ -46,18 +46,18 @@
   border-top-left-radius: 50%;
   border-bottom-left-radius: 50%;
 }
-.features_card .list-bullets {
+.secure_card .list-bullets {
   width: 100%;
   position: absolute;
   align-items: center;
   bottom: 0.5em;
 }
-.features_card .list-bullets ul {
+.secure_card .list-bullets ul {
   display: flex;
   justify-content: center;
   gap: 1em;
 }
-.features_card [type="radio"] {
+.secure_card [type="radio"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;

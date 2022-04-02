@@ -3,8 +3,9 @@
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding-block: 88px;
+  overflow: hidden;
 }
 .contact .contact-first {
   position: relative;
